@@ -1,6 +1,6 @@
 from google.genai import types
 
-from ai_agent.src.config import WORKING_DIR
+from src.config import WORKING_DIR
 from functions.get_file_content import get_file_content, schema_get_file_content
 from functions.get_files_info import get_files_info, schema_get_files_info
 from functions.run_python_file import run_python_file, schema_run_python_file

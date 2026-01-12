@@ -1,32 +1,38 @@
+# 🤖 Gemini AI Agent
 
+An intelligent Python-based agent built using the **Google Gemini API**. This project demonstrates an AI agent's ability to navigate a local directory, read file contents, and autonomously write code fixes using function calling.
 
+##  Features
+* **Gemini API Integration:** Powered by Google's latest LLM models for reasoning.
+* **Autonomous File Operations:** The agent can search, read, and write files to solve complex tasks.
+* **Agentic Workflow:** The system uses a "Plan-Act-Verify" loop to ensure tasks are completed correctly.
 
-I built an AI agent with gemini. Through this the project I learned about the Gemini API and add other things. 
+---
 
-To install 
-git clone repository 
-pip install requirements.txt
-python3 src/main.py "Your Prompt"
+##  Installation & Setup
 
-*To use Gemini AI you will need to go to https://aistudio.google.com/ to get an API key. You will need to create a .env folder in root and then create GEMINI_API_KEY= "Paste Key Here"
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/ai_agent.git](https://github.com/your-username/ai_agent.git)
+cd ai_agent
 
+### 2. Install Dependcies 
+```bash
+pip install -r requirements.txt
 
-As an example I built a calculator in which I introduced a bug into the code to see if the agent was able to search through the directory and then read and write to the file. 
+### 3. Configure API Keys
+Obtain an API key from Google AI Studio.
 
+Create a file named .env in the project root.
 
-The Bugged Calculator
-class Calculator:
-    def __init__(self):
-        self.operators = {
-            "+": lambda a, b: a + b,
-            "-": lambda a, b: a - b,
-            "*": lambda a, b: a * b,
-            "/": lambda a, b: a / b,
-        }
-        self.precedence = {
-            "+": 3,
-            "-": 1,
-            "*": 2,
-            "/": 2,
-        }
+Add your key to the file:
+GEMINI_API_KEY="your_api_key_here"
 
+### What I Learned
+Through the development of this project, I gained hands-on experience with:
+
+Gemini API: Implementing function calling and managing stateful conversations.
+
+Agentic Logic: Designing a system that can interpret its own environment and take actions.
+
+System Pathing: Managing Python module imports and directory structures for complex projects.

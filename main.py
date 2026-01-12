@@ -7,8 +7,8 @@ from google import genai
 from google.genai import types
 
 from functions.call_function import available_functions, call_function
-from ai_agent.src.prompts import system_prompt
-from ai_agent.src.config import MAX_ITERS
+from src.prompts import system_prompt
+from src.config import MAX_ITERS
 
 
 def main():
