@@ -21,7 +21,7 @@ An intelligent Python-based agent built using the **Google Gemini API**. This pr
    pip install -r requirements.txt
 
 3. **Configure API Keys
-   * **Obtain an API key from Google AI Studio.
+   * **Obtain an API key from [Google AI Studio](https://aistudio.google.com).
 
    * **Create a file named .env in the project root.
 
@@ -49,6 +49,7 @@ Through the development of this project, I gained hands-on experience with:
 * **System Pathing: Managing Python module imports and directory structures for complex projects.
 
 * **Unit Tests: Validate core logic to verify reliability of agentic tool. 
+
 
 
 
