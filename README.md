@@ -11,19 +11,19 @@ An intelligent Python-based agent built using the **Google Gemini API**. This pr
 
 ##  Installation & Setup
 
-1. **Clone the Repository
+1. Clone the Repository
    ```bash
    git clone https://github.com/your-username/ai_agent.git
    cd ai_agent
-2. **Run venv and activate
+2. Run virtual environment and activate
    ```bash
    python -m venv venv
    source venv/bin/activate
-3. **Install Dependencies 
+3. Install Dependencies 
    ```bash
    pip install -r requirements.txt
 
-4. **Configure API Keys
+4. Configure API Keys
    * Obtain an API key from [Google AI Studio](https://aistudio.google.com).
 
    * Create a file named .env in the project root folder.
@@ -32,7 +32,7 @@ An intelligent Python-based agent built using the **Google Gemini API**. This pr
    * Add your key to the file:
      ```bash 
       echo GEMINI_API_KEY="your_api_key_here" > .env
-5. **Run
+5. Run Application
    ```bash
    python main.py -verbose(if you want to see your token usage) "your prompt"
 
@@ -57,6 +57,7 @@ Through the development of this project, I gained hands-on experience with:
 * **System Pathing: Managing Python module imports and directory structures for complex projects.
 
 * **Unit Tests: Validate core logic to verify reliability of agentic tool. 
+
 
 
 
