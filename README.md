@@ -28,7 +28,7 @@ An intelligent Python-based agent built using the **Google Gemini API**. This pr
       touch .env
    * Add your key to the file:
      ```bash 
-      echo GEMINI_API_KEY="your_api_key_here"
+      echo GEMINI_API_KEY="your_api_key_here" > .env
 
 
 ## Demo
@@ -51,6 +51,7 @@ Through the development of this project, I gained hands-on experience with:
 * **System Pathing: Managing Python module imports and directory structures for complex projects.
 
 * **Unit Tests: Validate core logic to verify reliability of agentic tool. 
+
 
 
 
