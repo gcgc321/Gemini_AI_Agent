@@ -35,7 +35,7 @@ An intelligent Python-based agent built using the **Google Gemini API**. This pr
 
 
 ## Demo
-Here I created a bug in the calculator.py that was cause calculations to be wrong and setting the addition to the highest precedence. 
+Here I created a bug in the calculator.py that was causing calculations to be wrong and setting the addition to the highest precedence. 
 With Gemini I am able to tell it to fix the bug. It is able to use the functions specified and find the bug and write the bug fix to the file. 
 
 <p align="center">
@@ -54,6 +54,7 @@ Through the development of this project, I gained hands-on experience with:
 * **System Pathing: Managing Python module imports and directory structures for complex projects.
 
 * **Unit Tests: Validate core logic to verify reliability of agentic tool. 
+
 
 
 
