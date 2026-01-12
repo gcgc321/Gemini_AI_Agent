@@ -39,7 +39,7 @@ An intelligent Python-based agent built using the **Google Gemini API**. This pr
 
 ## Demo
 Here I created a bug in the calculator.py that was causing calculations to be wrong and setting the addition to the highest precedence. 
-With Gemini I am able to tell it to fix the bug. It is able to use the functions specified and find the bug and write the bug fix to the file. 
+With Gemini I am able to tell it to fix the bug. The agent is able to use the functions specified using python's os module and find the error and write the fix to the file. 
 
 <p align="center">
   <img src="img_src/ai_agent%20(1).gif" alt="AI Agent Demo" width="1080">
@@ -50,13 +50,14 @@ With Gemini I am able to tell it to fix the bug. It is able to use the functions
 ##  What I Learned
 Through the development of this project, I gained hands-on experience with:
 
-* **Gemini API: Implementing function calling and managing stateful conversations.
+* Gemini API: Implementing function calling and managing stateful conversations.
 
-* **Agentic Logic: Designing a system that can interpret its own environment and take actions.
+* Agentic Logic: Designing a system that can interpret its own environment and take actions.
 
-* **System Pathing: Managing Python module imports and directory structures for complex projects.
+* System Pathing: Managing Python module imports and directory structures for complex projects.
 
-* **Unit Tests: Validate core logic to verify reliability of agentic tool. 
+* Unit Tests: Validate core logic to verify reliability of agentic tool and file path functions. 
+
 
 
 
