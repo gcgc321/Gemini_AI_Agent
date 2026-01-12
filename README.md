@@ -48,6 +48,9 @@ Through the development of this project, I gained hands-on experience with:
 
 * **System Pathing: Managing Python module imports and directory structures for complex projects.
 
+* **Unit Tests: Validate core logic to verify reliability of agentic tool. 
+
+
 
 
 
