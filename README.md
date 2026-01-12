@@ -34,7 +34,7 @@ Here I created a bug in the calculator.py that was cause calculations to be wron
 With Gemini I am able to tell it to fix the bug. It is able to use the functions specified and find the bug and write the bug fix to the file. 
 
 <p align="center">
-  <img src="img_src/ai_agent(1).gif" alt="AI Agent Demo" width="400">
+  <img src="img_src/ai_agent%20(1).gif" alt="AI Agent Demo" width="800">
 </p>
 
 
@@ -47,6 +47,7 @@ Through the development of this project, I gained hands-on experience with:
 * **Agentic Logic: Designing a system that can interpret its own environment and take actions.
 
 * **System Pathing: Managing Python module imports and directory structures for complex projects.
+
 
 
 
