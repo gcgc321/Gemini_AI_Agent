@@ -13,7 +13,7 @@ An intelligent Python-based agent built using the **Google Gemini API**. This pr
 
 1. Clone the Repository
    ```bash
-   git clone https://github.com/your-username/ai_agent.git
+   git clone https://github.com/gcgc321/Gemini_AI_Agent.git
    cd ai_agent
 2. Run virtual environment and activate
    ```bash
@@ -57,6 +57,7 @@ Through the development of this project, I gained hands-on experience with:
 * **System Pathing: Managing Python module imports and directory structures for complex projects.
 
 * **Unit Tests: Validate core logic to verify reliability of agentic tool. 
+
 
 
 
